@@ -1,0 +1,116 @@
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray);
+  width: 321px;
+  height: 67px;
+}
+.headerDiv,
+.logoButton {
+  position: absolute;
+  top: 16px;
+  left: 107px;
+}
+.headerDiv {
+  top: 0;
+  left: 0;
+  width: 321px;
+  height: 67px;
+}
+.searchDiv1 {
+  position: relative;
+  display: inline-block;
+}
+.rectangleInput {
+  background-color: transparent;
+  position: relative;
+}
+.searchDiv {
+  position: absolute;
+  top: 380px;
+  left: 28px;
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: 16px;
+  color: var(--color-black);
+}
+.movieNameDiv {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv,
+.frameDiv1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv1 {
+  border-radius: var(--br-md);
+  background-color: var(--color-black);
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+}
+.frameDiv {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  gap: var(--gap-md);
+}
+.movieCategoryName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.movieSetDiv,
+.movieSetDiv1 {
+  position: absolute;
+  top: 472px;
+  left: 28px;
+  width: 626px;
+  height: 249px;
+}
+.movieSetDiv1 {
+  top: 754px;
+}
+.heroDiv,
+.rectangleIcon {
+  position: absolute;
+  left: 0;
+  width: 320px;
+  height: 257px;
+}
+.rectangleIcon {
+  top: 0;
+  object-fit: cover;
+}
+.heroDiv {
+  top: 67px;
+}
+.iPhoneSE1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1053px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+}

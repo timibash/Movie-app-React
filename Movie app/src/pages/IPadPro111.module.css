@@ -1,0 +1,148 @@
+.rectangleDiv,
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangleDiv {
+  background-color: var(--color-gray);
+  width: 834px;
+  height: 140px;
+}
+.rectangleDiv1 {
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 193px;
+  height: 60px;
+}
+.myTestAppIcon {
+  position: absolute;
+  top: 14px;
+  left: 19px;
+  width: 156.7px;
+  height: 32.94px;
+}
+.headerDiv,
+.logoDiv {
+  position: absolute;
+  top: 40px;
+  left: 321px;
+  width: 193px;
+  height: 60px;
+}
+.headerDiv {
+  top: 0;
+  left: 0;
+  width: 834px;
+  height: 140px;
+}
+.searchDiv1 {
+  position: relative;
+  display: inline-block;
+}
+.rectangleDiv2 {
+  position: relative;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 680px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.searchDiv {
+  position: absolute;
+  top: 751px;
+  left: 77px;
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  text-align: left;
+  color: var(--color-black);
+}
+.movieNameDiv {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv,
+.frameDiv1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv1 {
+  border-radius: var(--br-md);
+  background-color: var(--color-black);
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+}
+.frameDiv {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  gap: var(--gap-md);
+}
+.movieCategoryName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.movieSetDiv,
+.movieSetDiv1,
+.rectangleIcon {
+  position: absolute;
+  top: 888px;
+  left: 77px;
+  width: 1552px;
+  height: 349px;
+}
+.movieSetDiv1,
+.rectangleIcon {
+  top: 1285px;
+}
+.rectangleIcon {
+  top: 0;
+  left: 0;
+  width: 834px;
+  height: 550px;
+  object-fit: cover;
+}
+.watchSomethingIncredible {
+  position: absolute;
+  top: 109px;
+  left: 172px;
+  letter-spacing: -0.05em;
+  display: inline-block;
+  width: 490px;
+}
+.heroDiv {
+  position: absolute;
+  top: 138px;
+  left: 0;
+  width: 834px;
+  height: 550px;
+  font-size: var(--font-size-lg);
+}
+.iPadPro111 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1701px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+}
